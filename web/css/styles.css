@@ -1,0 +1,113 @@
+.row > div {
+  height: 100px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    border: 10px solid #ffffff;
+    padding: 125px;
+    width: 500px;
+    height: 100px;
+}
+.centradoabajo{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+ @media screen and (max-width:576px) {
+  .row > .grande{
+    height: 810px;
+  }
+}
+@media screen and (max-width:768px) and (min-width:576px) {
+  .row > .grande{
+    height: 710px;
+  }
+}
+@media screen and (min-width:768px) {
+  .row > .grande{
+    height: 510px;
+  }
+}
+
+@media screen and (max-width:768px) {
+ .row > .mediana{
+   height: 475px;
+ }
+}
+@media screen and (min-width:768px) {
+  .row > .mediana{
+    height: 250px;
+  }
+}
+
+@media screen and (max-width:768px) {
+ .row > .extgrande{
+  height: 2100px;
+ }
+}
+@media screen and (min-width:768px) {
+  .row > .extgrande{
+    height: 1050px;
+  }
+}
+
+
+.row > .muygrande{
+    height: 500px;
+}
+
+.row > .mediun{
+  height: 200px;
+}
+.row > .inter{
+  height: 250px;
+}
+.row > .pequena{
+    height: 33px;
+}
+
+#grafico1-3D{
+    height: 400px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#grafico2-3D {
+    height: 400px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.red  {
+  background-color: red;
+}
+
+.orange {
+  background-color: #F36026;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.violet {
+  background-color: violet;
+}
+.grey{
+    background-color: grey;
+}
+.black{
+    background-color: black;
+}
